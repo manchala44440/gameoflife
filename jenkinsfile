@@ -1,4 +1,4 @@
-node {
+https://github.com/wakaleo/game-of-life.git'node {
     stage('scm') {
         git 'https://github.com/wakaleo/game-of-life.git'
     // some block
