@@ -3,8 +3,8 @@ node {
         git 'https://github.com/wakaleo/game-of-life.git'
     // some block
 }
-stage('packaging') {
-    sh '''mvn package
+stage('Build') {
+    sh 'mvn package'
 '''
     // some block
 }
