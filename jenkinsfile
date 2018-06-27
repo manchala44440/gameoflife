@@ -1,10 +1,13 @@
 node {
+
     stage('scm') {
         git 'https://github.com/wakaleo/game-of-life.git'
     // some block
 }
 stage('Build') {
     sh 'mvn package'
+    
     // some block
 }
+
 }
