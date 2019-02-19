@@ -1,0 +1,9 @@
+node{
+    stage('SCM checkout'){
+    git 'https://github.com/manchala44440/gameoflife'
+    }
+    stage('compile-package'){
+    def mvnHome = 
+    sh "${mvnHome}/bin/mvn package"
+    }
+    }
