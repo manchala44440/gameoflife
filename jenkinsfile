@@ -1,6 +1,6 @@
 node{
     stage('SCM checkout'){
-    git 'https://github.com/manchala44440/gameoflife'
+    git 'https://github.com/manchala44440/gameoflife.git'
     }
     stage('compile-package'){
     def mvnHome = tool name: 'maven-3', type: 'maven'
